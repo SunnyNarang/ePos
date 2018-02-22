@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="exodiasolutions.epos.Splash">
+
+<exodiasolutions.epos.CustomViews.TV_heading
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ePos"
+    android:textColor="#ccc"
+    android:layout_centerInParent="true"
+    android:textSize="30sp"
+    android:id="@+id/main"
+    />
+    <exodiasolutions.epos.CustomViews.TV_handwritting
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advance Point of Sale System"
+        android:textColor="#ccc"
+        android:layout_below="@id/main"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
